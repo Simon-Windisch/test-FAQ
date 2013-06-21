@@ -1,0 +1,36 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="assets/jquery-1.4.2.js"></script>
+        <script src="assets/joose.js"></script>
+        <script src="assets/jquery-external_interface.js"></script>
+        <script src="assets/swfobject.js"></script>
+        <script src="assets/flexPlayer.js"></script>
+    </head>
+    <body>
+        <div id="player" style="display: bock; width: 602px; height: 336px;"></div>
+        <script type="text/javascript">
+            var playerNode = $('#player');
+
+            var player = new flexPlayer(
+                playerNode,     // domNode des Players
+                'maxdome',      // shoptype maxdome, nightclub
+                'das ist der titel', // titel
+                'http://www.maxdome.de/flashvideos/0212pornoram_21663_2008_flv.flv', // flv quelle
+                { // options
+                    width: '602',
+                    height: '336',
+                    autoplay: 1, // startet den player automatisch
+                    playerDirectory: 'assets/'
+                }
+            );
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+Suchtreffer einschränken
+-----------------------------------------------------------------
+search.module, 2009-09-01 12:50
+-----------------------------------------------------------------
+Mehr Suchtreffer finden:   (http://drupal.org/node/103548)
+834 <	$query2 = substr(str_repeat("i.word = '%s' OR ", count($arguments2)), 0, -4);
+834 >	$query2 = substr(str_repeat("i.word like '%%%s%%' OR ", count($arguments2)), 0, -4);
+
+861 <	return array("d.data ". ($not ? 'NOT ' : '') ."LIKE '%% %s %%'", $num_new_scores, $num_valid_words);
+861 >	return array("d.data ". ($not ? 'NOT ' : '') ."LIKE '%%%s%%'", $num_new_scores, $num_valid_words);
+

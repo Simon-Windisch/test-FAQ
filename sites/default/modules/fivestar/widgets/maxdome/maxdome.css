@@ -1,0 +1,50 @@
+div.fivestar-widget{
+	position:relative;
+}
+
+/* Static View-only Star Version */
+div.fivestar-widget-static .star {
+  width: 14px;
+  height: 14px;
+  background: url(maxdome_star.png) no-repeat 0 0px;
+}
+
+div.fivestar-widget-static .star span.on {
+  background: url(maxdome_star.png) no-repeat 0 -30px;
+}
+div.fivestar-widget-static .star span.off {
+  background: url(maxdome_star.png) no-repeat 0 -30px;
+}
+
+
+/* Javascript Star Version */
+div.fivestar-widget .cancel, div.fivestar-widget .star {
+  width: 14px;
+  height: 14px;
+}
+div.fivestar-widget .cancel, div.fivestar-widget .cancel a {
+  background: url(maxdome_delete.png) no-repeat 0 0;
+}
+div.fivestar-widget .star{ /*, div.fivestar-widget .star a */
+  background: url(maxdome_star.png) no-repeat 0 0px;
+}
+div.fivestar-widget:hover .star{ /* div.fivestar-widget:hover .star a*/
+  background: url(maxdome_star.png) no-repeat 0 -15px;
+}
+div.fivestar-widget div.hover, div.rating div:hover {
+  background-position: 0 -45Px !important;
+}
+div.fivestar-widget div.on{
+  background-position: 0 -30px !important;
+}
+
+
+div.fivestar-widget a, .fivestar-summary{
+	font-style:normal !important;font-size: 11px !important;line-height:14px;color:#999 !important;
+}
+div.fivestar-widget a{
+	background:none !important;
+}
+.fivestar-summary{
+	position:absolute;left:80px;bottom:-1px;width:250px !important;
+}

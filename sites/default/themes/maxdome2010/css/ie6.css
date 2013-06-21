@@ -1,0 +1,23 @@
+#header-region,
+#content,
+#sidebar-first,
+#sidebar-second{
+	display:none !important;
+}
+.offline #offline{
+	display:none !important;
+}
+
+#header{
+	height:40px !important;
+	background:none;
+}
+#logo-title h1 a span{
+	background:url(images/ie6/logo.gif) top left no-repeat;
+}
+
+#ie6{
+	display:block !important;height:200px;
+	background:url(/sites/default/files/bg_stage.jpg) center no-repeat;
+	padding:50px 25px;
+}

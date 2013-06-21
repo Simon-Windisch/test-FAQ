@@ -1,0 +1,291 @@
+
+/** Font styles 
+---------------------------------*/
+
+body {
+  margin: 0;
+  font-size: 100%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+  background-color:#000;
+}
+
+#page {
+	font-size: 0.6875em; /* 16px x .6875 = 11px */
+  line-height: 1.273em; /* 11px x 1.273 = 14,003px */    /* maxdome  1.2em; */
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset {
+	font-family:Arial,Helvetica,Sans-Serif;
+}
+body, caption, th, td{
+	color:#999; 	/* maxdome #adacac; */
+}
+
+/* Links */
+
+a:link, a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color:white;
+  text-decoration: underline;
+}
+
+a.prom{
+	font-weight:bold;
+}
+a.pagelink{
+	color:#00a2ff;
+	background:url(images/pfeil_small_blau.png) 0 center no-repeat;
+	padding-left:10px;
+	margin-bottom:7px;
+}
+a.videolink{
+	color:#00a2ff;
+	background:url(images/icon_video.png) 0 center no-repeat;
+	padding-left:19px;
+	margin-bottom:7px;
+}
+
+a.backlink,
+a.toplink{
+	background:url(images/pfeil_small_grau.png) 0 center no-repeat;
+	padding-left:10px;
+	margin-bottom:7px;
+}
+
+a:focus{outline:none;} 
+
+/* Titles  */
+
+h1,h2,h3{
+	font-weight:bold;color:#fff;
+	/*text-transform:uppercase;*/
+}
+h1{
+	font-size:20px;
+	line-height:20px;
+}
+#title-wrapper{
+	min-height:30px !important;
+	padding:0 0 13px;
+	margin-bottom:5px;
+}
+
+h1.title{ /* sifr replaced */
+	font-family:Arial, Helvetica, Sans-Serif;color:#f3f3f3;
+	font-size:16px;line-height:19px;
+}
+h1.sIFR-replaced{min-height:19px !important;}
+
+h2,h3{
+	display:block;
+	/*height:19px;*/
+	font-size:12px;line-height:22px;
+	background:url(images/bg_headline_grey_dark.png) top left repeat-x #000;
+	border-bottom:1px solid #000;
+	padding:0px 12px;
+	margin-top:15px;
+}
+.content h4{
+	/*margin-top:25px;*/
+}
+h4, dt{
+	font-size:11px !important;font-weight:bold;color:#f2f2f2;
+}
+
+h4, p, ul{
+  margin-bottom:10px;
+}
+h5{font-size:1em;font-weight:bold;
+	padding-top:12px;}
+
+
+/* Paragraph Styles */
+
+p {
+  margin: 1em 0;
+}
+
+
+/* Other styles */
+
+.highlight,
+.search-results dd strong{
+	/*font-weight:bold;color:#f5f49f;*/
+	font-weight:bold;color:#fff;
+}
+strong{
+	font-weight:bold;
+}
+
+.red{
+	color:#f00 !important;
+}
+.marker, .form-required{
+	color:#f5f49f;
+}
+
+small{
+	font-size:9px;
+}
+
+hr{
+	border:none;
+	border-top:1px solid #000;
+	margin:12px 0;
+}
+
+dt{
+	margin-bottom:7px;
+}
+dd{
+	margin-bottom:20px;
+}
+
+
+
+/* List Styles  */
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+/* Table Styles  */
+
+table {
+	width: 99%;
+}
+tbody{
+	border-top:0px !important;
+}
+tr.even td, tr.odd td {
+	padding: 10px 5px;
+}
+tr.odd{
+	background-color:#292929;
+}
+tr.even{
+	background-color:#232323;
+}
+td.active{
+	background:none !important;
+}
+
+.node-inner table tbody{
+	border:none;
+}
+.node-inner table tbody td{
+	padding:2.5px 0;
+}
+
+/* Code */
+
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+
+pre {
+	background-color: #efefef;
+	display: block;
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #aaa;
+}
+
+/* List Styles */
+
+ul          { list-style-type: disc; }
+ul ul       { list-style-type: circle; }
+ul ul ul    { list-style-type: square; }
+ul ul ul ul { list-style-type: circle; }
+ol          { list-style-type: decimal; }
+ol ol       { list-style-type: lower-alpha; }
+ol ol ol    { list-style-type: decimal; }
+
+/* Abbreviation */
+
+abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+/* UI improvments  */
+
+#edit-title{
+	font-size: 24px;
+}
+#system-themes-form img{
+	width:100px;
+}
+.form-item .description{
+	font-style:italic;
+	line-height:1.2em;
+	font-size:0.8em;
+	margin-top:5px;
+	color:#777;
+}
+#edit-delete{
+	color:#c00;
+}
+
+
+/* Rollover edit links for blocks ----------------------------*/
+
+div.block {
+  position: relative;
+}
+/*
+div.block div.edit {
+  display: none;
+  position: absolute;right: 0;top: 0;z-index: 40;
+  border: 1px solid #eee;
+  padding: 0 2px;
+  font-size: 11px;
+  background-color: #fff;
+}
+*/
+div.block:hover div.edit {
+  display: block !important;
+}
+
+
+
+.edit{
+	display: none !important;
+	position:absolute;top:-16px !important;right:5px !important;
+}
+#block-menu_block-4 .edit{
+	left:5px !important;
+}
+.edit a{
+  float: left;
+  display: block !important;
+  height: 16px;
+  border-width: 0;
+  font:bold 8px Arial, Helvetica, sans-serif;text-decoration: none;color: #fff !important;text-transform:uppercase;
+  background: url(images/tabs/tab-left.png) no-repeat left -38px transparent !important;
+  margin: 0;
+  padding: 0 0 0 5px !important; /* width of tab-left.png */
+}
+
+.edit a span{
+  display: block !important;
+  height: 13px; /* 16px (parent) - 3px (padding) */
+  color: #aaa !important;
+  margin: 0;
+  padding: 3px 8px 0 3px !important;
+  border-width: 0 !important;
+  line-height: 16px;
+  background: url(images/tabs/tab-right.png) no-repeat right -38px transparent !important;
+}
+.edit a:hover,
+.edit a:hover span{
+	color: #fff !important;
+}
+
+
+
+/* custom module styles ------------------------ */
+

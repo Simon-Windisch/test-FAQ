@@ -1,0 +1,24 @@
+
+/* fix padding bug */
+fieldset.collapsible{
+	padding:0 15px 15px;
+}
+fieldset.collapsible legend a{
+	margin:0px -15px 15px;
+}
+#edit-search-block-form-1{
+}
+
+
+.fivestar-widget .fivestar-form-item label{margin-bottom:5px !important;}
+
+#header .block-search #edit-search-block-form-1{
+	height:17px;
+	padding:4px 5px 0 !important;
+}
+
+.page-downloads #programminfo .img-layer{background:url(/sites/default/files/teaser_programm.jpg) top left no-repeat !important;}
+.page-downloads #mce .img-layer{background:url(/sites/default/files/teaser_wmc.jpg) top left no-repeat !important;}
+.page-downloads #verify-u .img-layer{background:url(/sites/default/files/teaser_verifyu.jpg) top left no-repeat !important;}
+.page-downloads .img-layer:hover{visibility:visible !important;}
+.page-downloads .teaser .description{display:none !important;}

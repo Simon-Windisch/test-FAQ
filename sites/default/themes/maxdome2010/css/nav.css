@@ -1,0 +1,141 @@
+/** MAIN NAV ---------------------------------*/
+
+/* main settings for nav in layout.css */
+
+#header #block-menu_block-4 li a{
+	display:block;float:left;
+	height:0px !important;overflow:hidden;
+	color:#b0b0b0;
+	background-position:left -30px;
+	background-repeat:no-repeat;
+	padding-top:30px !important;
+}
+#header #block-menu_block-4 li a:hover{
+	text-decoration:none;color:#fff;
+	background-position:left -60px;
+}
+#header #block-menu_block-4 li a.active,
+#header #block-menu_block-4 li.active-trail a,
+.faq #header #block-menu_block-4 li.h-ufige_fragen a,
+.problembehebung #header #block-menu_block-4 li.problembehebung a,
+.downloads #header #block-menu_block-4 li.downloads a,
+.kontakt #header #block-menu_block-4 li.kontakt a{
+	background-position:left -60px;
+}
+#header #block-menu_block-4 li.home a{
+	width:45px;
+	background-image:url(images/nav/bg_main_home.png);
+}
+#header #block-menu_block-4 li.h-ufige_fragen a{
+	width:154px;
+	background-image:url(images/nav/bg_main_faq.png);
+}
+#header #block-menu_block-4 li.problembehebung a{
+	width:182px;
+	background-image:url(images/nav/bg_main_problembehebung.png);
+}
+#header #block-menu_block-4 li.downloads a{
+	width:123px;
+	background-image:url(images/nav/bg_main_downloads.png);
+}
+#header #block-menu_block-4 li.kontakt a{
+	width:98px;
+	background-image:url(images/nav/bg_main_kontakt.png);
+}
+
+
+
+
+
+/** SUB NAV ---------------------------------*/
+
+#sidebar-first ul{
+	font-weight:bold;font-size:11px;
+	border-top:1px solid #515151;
+	padding:0px;
+	margin-bottom:15px;
+}
+#sidebar-first li{
+	/*min-height:42px;*/
+	display:block;
+	list-style:none !important;
+	border-bottom:1px solid #000;
+	background-color:#262626;
+	padding:0;
+	margin:0;
+}
+#sidebar-first li.leaf{
+	list-style-image:none !important;
+}
+#sidebar-first li a{
+	/*min-height:29px;*/
+	display:block;
+	color:#fff;text-decoration:none;
+	background-image:none !important;
+	padding:12px 0 14px 12px;
+}
+
+/*#sidebar-first li:hover,*/
+#sidebar-first li.active-trail{
+	background-color:#424242;	
+}
+#sidebar-first li.active-trail a,
+#sidebar-first li a:hover,
+#sidebar-first li a.active{
+	border-left:4px solid #00a2ff;
+	padding:12px 0 14px 8px;
+}
+#sidebar-first li.active-trail ul a,
+#sidebar-first li.expanded ul a{
+	min-height:0px;
+	border-left:none;
+}
+
+
+/* subnav children --------------------- */
+#sidebar-first li ul{
+	font-size:11px;
+	border-top:1px solid #000;
+	background-color:#353535 !important;
+	padding-bottom:4px;
+	margin:0;
+}
+#sidebar-first li ul li{
+	min-height:0;
+	list-style-image:none !important;
+	background:none !important;
+	border:none;
+	padding:3px 4px 0;
+	margin:0;
+}
+#sidebar-first li ul li a{
+	color:#999;
+	background:none !important;
+	padding:3px 8px !important;
+}
+#sidebar-first li ul li a:hover{
+	color:#fff;
+	background-color:#00a2ff !important;
+}
+#sidebar-first li ul li a.active{
+	color:#fff;
+	background-color:#4e4e4e !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+#sidebar-first #block-menu_block-2 li.nightclub a{
+	/*color:#800 !important;*/
+}
+#sidebar-first #block-menu_block-2 li.nightclub{
+	/*background-color:#5a3e3e !important;*/
+	
+}
