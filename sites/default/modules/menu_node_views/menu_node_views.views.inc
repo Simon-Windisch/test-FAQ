@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views.views.inc,v 1.3 2009/08/04 13:59:57 agentken Exp $
 
 /**
  * @file Menu Node Views definitions.

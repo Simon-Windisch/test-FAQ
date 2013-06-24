@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views_field_menu_name.inc,v 1.1 2009/06/22 15:35:13 agentken Exp $
 
 /**
  * @file Views field handler for the name of a menu.

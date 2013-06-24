@@ -50,12 +50,12 @@
 }
 
 @media screen {
-  .sIFR-active h1.title {
+  .sIFR-active #testrenderer h1.title {
     visibility: hidden;
     font-size: 16px;
 }
 
-  .sIFR-active .front #stage h2 {
+  .sIFR-active #testrenderer .front #stage h2 {
     visibility: hidden;
     font-size: 22px;
 }

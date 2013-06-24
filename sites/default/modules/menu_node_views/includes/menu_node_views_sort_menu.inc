@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views_sort_menu.inc,v 1.2 2009/07/16 14:18:33 agentken Exp $
 
 /**
  * @file Views sort handler for the menu hierarchy.

@@ -1,6 +1,6 @@
 <?php
 
-// $Id: menu_node.install,v 1.2 2009/08/21 14:20:55 agentken Exp $
+// $Id: menu_node.install,v 1.3.2.1 2011/01/16 15:19:51 agentken Exp $
 
 /**
  * @file
@@ -15,7 +15,10 @@ function menu_node_schema() {
     'fields' => array(
       'nid' => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE, 'default' => 0),
       'mlid' => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE, 'default' => 0)),
-    'primary key' => array('nid', 'mlid'),
+    'primary key' => array('mlid'),
+    'indexes' => array(
+      'nid' => array('nid'),
+    ),
   );
   return $schema;
 }
@@ -74,4 +77,58 @@ function menu_node_update_6000() {
     }
   }
   return $ret;
+}
+
+/**
+ * Erase bad records from the {menu_node} table.
+ */
+function menu_node_update_6001() {
+  $return = array();
+  $result = db_query("SELECT mn.mlid, mn.nid FROM {menu_node} mn LEFT JOIN {node} n ON mn.nid = n.nid LEFT JOIN {menu_links} ml ON ml.mlid = mn.mlid WHERE n.nid IS NULL OR ml.mlid IS NULL");
+  while ($data = db_fetch_object($result)) {
+    $return[] = update_sql("DELETE FROM {menu_node} WHERE mlid = $data->mlid AND nid = $data->nid");
+  }
+  return $return;
+}
+
+/**
+ * Update to the new schema with only mlid as primary key.
+ */
+function menu_node_update_6002() {
+  $ret = array();
+  db_drop_primary_key($ret, 'menu_node');
+  db_drop_index($ret, 'menu_node', 'nid');
+  db_add_primary_key($ret, 'menu_node', array('mlid'));
+  db_add_index($ret, 'menu_node', 'nid', array('nid'));
+  return $ret;
+}
+
+/**
+ * Correct for duplicate mlids with unique nids.
+ */
+function menu_node_update_6003() {
+  $return = array();
+  // Find any instances where more than one nid is mapped to an mlid.
+  $result = db_query(
+    "SELECT mn.mlid, mn.nid, ml.link_path FROM {menu_node} mn
+    LEFT JOIN (SELECT mlid, count(mlid) AS count FROM {menu_node} GROUP BY mlid) mcount ON mn.mlid = mcount.mlid
+    LEFT JOIN {menu_links} ml ON mn.mlid = ml.mlid WHERE mcount.count > 1 AND ml.router_path LIKE 'node/%%'");
+  // Walk through every row and test them based on nid.
+  while ($data = db_fetch_object($result)) {
+    $nid = str_replace('node/', '', $data->link_path);
+    // Does the stored nid match the menu_link path nid?
+    $check = (bool) $nid == $data->nid;
+    // If check failed we delete the row with this combination.
+    if (!$check) {
+      $return[] = update_sql("DELETE FROM {menu_node} WHERE mlid = $data->mlid AND nid = $data->nid");
+    }
+  }
+  return $return;
+}
+
+/**
+ * Repeat update_6002, which failed on some systems.
+ */
+function menu_node_update_6004() {
+  return menu_node_update_6002();
 }

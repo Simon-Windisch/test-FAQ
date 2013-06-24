@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views_argument_nid.inc,v 1.1 2009/06/29 20:51:57 agentken Exp $
 
 /**
  * Argument handler to accept a node id that is menu-sensitive.

@@ -32,11 +32,19 @@
 
 			<div id="header">
 				<div id="header-inner">
-					<div id="logo-title">
+					<div id="header-nav--meta">
+						<ul>
+							<li>
+								<a href="http://www.maxdome.de/" class="arrow-right">maxdome.de</a>
+							</li>
+						</ul>
+					</div>
+					<div id="logo">
 		<?php	if (!empty($site_name)): ?>
-						<h1	id="site-name"><a	href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
+							<h1	id="site-name"><a href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
 		<?php	endif; ?>
 					</div>
+					<div id="web-presence-part">FAQ</div>
 				
 		<?php	if ($header):	?>
 					<div id="header-region">
@@ -75,7 +83,7 @@
 							<?php	endif; ?>
 
 							<?php	if ($help):	?>
-								<?php	print	$help; ?>	<hr/>
+								<?php	print	$help; ?>
 							<?php	endif; ?>
 
 						</div> <!--	/#content-header -->

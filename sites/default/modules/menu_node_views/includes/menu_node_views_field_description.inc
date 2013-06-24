@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views_field_description.inc,v 1.2 2009/08/04 14:03:34 agentken Exp $
 
 /**
  * @file Views field handler for the description of a menu item.

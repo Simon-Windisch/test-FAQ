@@ -1,6 +1,5 @@
 <?php
 
-// $Id: menu_node_views_field_link_title.inc,v 1.1 2009/06/22 15:35:13 agentken Exp $
 
 /**
  * Views handler for menu links.
