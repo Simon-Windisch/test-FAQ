@@ -26,34 +26,38 @@
 	<body	class="<?php print $body_classes;	?>">
 		
 		<div id="skip-nav"><a	href="#content">Skip to	Content</a></div>	 
+
+	<!-- ______________________	HEADER _______________________ -->
+
+		<div id="header">
+			<div id="header-inner">
+				<div id="header-nav--meta">
+					<ul>
+						<li>
+							<a href="http://www.maxdome.de/" class="arrow-right">maxdome</a>
+						</li>
+					</ul>
+				</div>
+				<div id="logo">
+	<?php	if (!empty($site_name)): ?>
+						<h1	id="site-name"><a href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
+	<?php	endif; ?>
+				</div>
+				<div id="web-presence-part">FAQ</div>
+			
+	<?php	if ($header):	?>
+				<div id="header-region">
+					<?php	echo $header;	?>
+				</div>
+	<?php	endif; ?>
+	
+			</div> <!--	/header-inner -->
+		</div> <!--	/header	-->
+
+	<!-- ______________________	PAGE _______________________ -->
+
+
 		<div id="page">
-
-		<!-- ______________________	HEADER _______________________ -->
-
-			<div id="header">
-				<div id="header-inner">
-					<div id="header-nav--meta">
-						<ul>
-							<li>
-								<a href="http://www.maxdome.de/" class="arrow-right">maxdome.de</a>
-							</li>
-						</ul>
-					</div>
-					<div id="logo">
-		<?php	if (!empty($site_name)): ?>
-							<h1	id="site-name"><a href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
-		<?php	endif; ?>
-					</div>
-					<div id="web-presence-part">FAQ</div>
-				
-		<?php	if ($header):	?>
-					<div id="header-region">
-						<?php	echo $header;	?>
-					</div>
-		<?php	endif; ?>
-		
-				</div> <!--	/header-inner	-->
-			</div> <!--	/header	-->
 
 		<!-- ______________________	MAIN _______________________ -->
 

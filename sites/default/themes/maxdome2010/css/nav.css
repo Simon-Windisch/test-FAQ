@@ -2,12 +2,11 @@
 
 #block-menu_block-4{
 	/*padding:5px 0 0 17px;*/
-	background: url("images/header-sf7c2ba0d5d.png") no-repeat transparent;
-	background-position: -26px -50px;
+	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
+	background-position: -1598px -491px;
 	bottom: 0px;
 	position: absolute;
-	margin: 0 0 4px 0;
-	height: 37px;
+	height: 42px;
 	width: auto;
 }
 #block-menu_block-4 *{
@@ -16,31 +15,25 @@
 	margin: 0 !important;
 }
 #block-menu_block-4 li{
-	background: url("images/header-sf7c2ba0d5d.png") no-repeat transparent;
-	background-position: 100% -50px;
+	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
+	background-position: 100% -491px;
 	float: left;
 	position: relative;
 }
 #block-menu_block-4 li a{
 	display: block;
 	margin: 0 1px 0 0;
-	height: 37px;
+	height: 42px;
 	padding: 10px 14px;
-	text-decoration: none; 
+	text-decoration: none;
 	font-size: 15px;
 	font-weight: 400;
 	float: left;
 	color: white;
 }
 #block-menu_block-4 li a:hover{
-	background: rgba(73, 72, 72, 0.14);
-	background: -moz-linear-gradient(top, rgba(73, 72, 72, 0.14) 0%, #898888 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(73, 72, 72, 0.14)), color-stop(100%, #898888));
-	background: -webkit-linear-gradient(top, rgba(73, 72, 72, 0.14) 0%, #898888 100%);
-	background: -o-linear-gradient(top, rgba(73, 72, 72, 0.14) 0%, #898888 100%);
-	background: -ms-linear-gradient(top, rgba(73, 72, 72, 0.14) 0%, #898888 100%);
-	background: linear-gradient(to bottom, rgba(73, 72, 72, 0.14) 0%, #898888 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24494848', endColorstr='#FF898888', GradientType=0);
+	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
+	background-position: 0px -307px;
 }
 #block-menu_block-4 li a.active,
 #block-menu_block-4 li.active-trail a,
@@ -49,14 +42,8 @@
 .downloads #block-menu_block-4 li.downloads a,
 .kontakt #block-menu_block-4 li.kontakt a,
 .fernhilfe #block-menu_block-4 li.fernhilfe a{
-	background: rgba(73, 72, 72, 0);
-	background: -moz-linear-gradient(top, rgba(73, 72, 72, 0) 44%, #101010 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(73, 72, 72, 0)), color-stop(100%, #101010));
-	background: -webkit-linear-gradient(top, rgba(73, 72, 72, 0) 44%, #101010 100%);
-	background: -o-linear-gradient(top, rgba(73, 72, 72, 0) 44%, #101010 100%);
-	background: -ms-linear-gradient(top, rgba(73, 72, 72, 0) 44%, #101010 100%);
-	background: linear-gradient(to bottom, rgba(73, 72, 72, 0) 44%, #101010 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00494848', endColorstr='#FF101010', GradientType=0);
+	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
+	background-position: 0px -378px;
 }
 #block-menu_block-4 li.home a{
    width: 42px;
@@ -80,14 +67,18 @@
 /* ------- Sub-Nav ------- */
 
 #block-menu_block-2{
-box-shadow: inset #DBD8D2 0 7px 7px 0;
--webkit-box-shadow: inset #DBD8D2 0 7px 7px 0;
--moz-box-shadow: inset #DBD8D2 0 7px 7px 0;
+box-shadow: inset #D2D2D2 0 7px 7px 0;
+-webkit-box-shadow: inset #D2D2D2 0 7px 7px 0;
+-moz-box-shadow: inset #D2D2D2 0 7px 7px 0;
+
+background-color: #EEE;
+outline: solid 1px #EDEDED;
 }
 #block-menu_block-2 ul{
-box-shadow: inset #DBD8D2 0 0 0 1px;
--webkit-box-shadow: inset #DBD8D2 0 0 0 1px;
--moz-box-shadow: inset #DBD8D2 0 0 0 1px;
+/* Box-Shadow */
+box-shadow: inset #D2D2D2 0 0 2px 2px;
+-webkit-box-shadow: inset #D2D2D2 0 0 2px 2px;
+-moz-box-shadow: inset #D2D2D2 0 0 2px 2px;
 	padding:0;
 }
 #block-menu_block-2 li{
@@ -100,9 +91,10 @@ box-shadow: inset #DBD8D2 0 0 0 1px;
 #block-menu_block-2 li.expanded{
 border-top:1px solid #FFF;
 border-bottom:1px solid #FFF;
-box-shadow: inset #DBD8D2 0 0 0 1px;
--webkit-box-shadow: inset #DBD8D2 0 0 0 1px;
--moz-box-shadow: inset #DBD8D2 0 0 0 1px;
+/* Box-Shadow */
+box-shadow: inset #D2D2D2 0 0 2px 2px;
+-webkit-box-shadow: inset #D2D2D2 0 0 2px 2px;
+-moz-box-shadow: inset #D2D2D2 0 0 2px 2px;
 }
 #block-menu_block-2 li.expanded li.leaf{
 padding:0;

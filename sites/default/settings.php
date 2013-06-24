@@ -90,10 +90,10 @@
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
 
-$db_username =  "root";
-$db_password =  "";
-$db_server =    "localhost";
-$db_name =      "mxd_faq";
+$db_username =	"root";
+$db_password =	"";
+$db_server =		"localhost";
+$db_name =			"mxd_faq";
 
 $db_url = 'mysql://'.$db_username.':'.$db_password.'@'.$db_server.'/'.$db_name;
 $db_prefix = '';
