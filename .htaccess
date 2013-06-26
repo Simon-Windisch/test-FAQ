@@ -1,0 +1,216 @@
+#
+# Redirect old URLs:
+#
+
+Redirect 301 /altersverifikationssystem_/1.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/10.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/11.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/12.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/14.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/15.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/16.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/19.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/2.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/4.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/6.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/9.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /altersverifikationssystem_/index.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+Redirect 301 /image/blind.gif http://faq.maxdome.de/?q=
+Redirect 301 /image/maxdome_logo.jpg http://faq.maxdome.de/?q=
+Redirect 301 /maxdome/allgemeines/1.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_ist_maxdome
+Redirect 301 /maxdome/allgemeines/12.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/registrierung
+Redirect 301 /maxdome/allgemeines/13.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_ist_maxdome
+Redirect 301 /maxdome/allgemeines/14.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/nutzungsvoraussetzungen
+Redirect 301 /maxdome/allgemeines/15.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_ist_maxdome
+Redirect 301 /maxdome/drmlizenzen/1.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/drmlizenzen/3.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/drmlizenzen/4.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/drmlizenzen/index.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/index.html http://faq.maxdome.de/?q=
+Redirect 301 /maxdome/navigation/1.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/navigation/2.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/navigation/5.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/pakete/4.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+Redirect 301 /maxdome/pakete/6.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+Redirect 301 /maxdome/pay_per_view/2.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/pay_per_view/4.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/pay_per_view/5.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/sicherheit/1.html http://faq.maxdome.de/?q=
+Redirect 301 /maxdome/technische_fragen/1.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/technische_fragen/10.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/technische_fragen/11.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/technische_fragen/12.html http://faq.maxdome.de/?q=
+Redirect 301 /maxdome/technische_fragen/13.html http://faq.maxdome.de/?q=
+Redirect 301 /maxdome/technische_fragen/15.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/16.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/18.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/19.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/21.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/3.html http://faq.maxdome.de/?q=problembehebung/web
+Redirect 301 /maxdome/technische_fragen/5.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/technische_fragen/8.html http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+Redirect 301 /maxdome/technische_fragen/index.html http://faq.maxdome.de/?q=problembehebung
+Redirect 301 /set_top_box_shop/1.html http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+Redirect 301 /set_top_box_shop/3.html http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+Redirect 301 /set_top_box_shop/5.html http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+Redirect 301 /set_top_box_shop/6.html http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+Redirect 301 /set_top_box_shop/index.html http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+Redirect 301 /vertrags_und_rechnungsfragen/3.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/bezahlung_und_gutscheine
+Redirect 301 /vertrags_und_rechnungsfragen/5.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/bezahlung_und_gutscheine
+Redirect 301 /vertrags_und_rechnungsfragen/8.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+Redirect 301 /vertrags_und_rechnungsfragen/index.html http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+
+#Redirect 301 /node/117 http://faq.maxdome.de/?q=faq/maxdome_im_web/download
+#Redirect 301 /node/118 http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /node/137 http://faq.maxdome.de/?q=
+#Redirect 301 /node/15 http://faq.maxdome.de/?q=faq/maxdome_im_web/nutzungsvoraussetzungen
+#Redirect 301 /node/18 http://faq.maxdome.de/?q=faq/windows_media_center
+#Redirect 301 /node/21 http://faq.maxdome.de/?q=faq/allgemeine_fragen/registrierung
+#Redirect 301 /node/25 http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /node/26 http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /node/29 http://faq.maxdome.de/?q=faq/allgemeine_fragen/nutzungsvoraussetzungen
+#Redirect 301 /node/34 http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /node/35 http://faq.maxdome.de/?q=faq/allgemeine_fragen/programmangebot
+#Redirect 301 /node/36 http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+#Redirect 301 /node/37 http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+#Redirect 301 /node/38 http://faq.maxdome.de/?q=faq/allgemeine_fragen/bezahlung_und_gutscheine
+#Redirect 301 /node/39 http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+#Redirect 301 /node/40 http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /node/41 http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+#Redirect 301 /node/42 http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /node/7 http://faq.maxdome.de/?q=faq/allgemeine_fragen/registrierung
+#Redirect 301 /node/8 http://faq.local/?q=faq/allgemeine_fragen/was_ist_maxdome
+#Redirect 301 /download_angebot http://faq.maxdome.de/?q=faq/maxdome_im_web/download
+#Redirect 301 /faq/altersverifikation http://faq.maxdome.de/?q=faq/allgemeine_fragen/altersverifikation
+#Redirect 301 /faq/bezahlung http://faq.maxdome.de/?q=faq/allgemeine_fragen/bezahlung_und_gutscheine
+#Redirect 301 /faq/download_angebot http://faq.maxdome.de/?q=faq/maxdome_im_web/download
+#Redirect 301 /faq/filmabruf http://faq.maxdome.de/?q=faq/maxdome_im_web/filmabruf
+#Redirect 301 /faq/kosten http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_kostet_maxdome
+#Redirect 301 /faq/nutzungsvoraussetzungen http://faq.maxdome.de/?q=faq/allgemeine_fragen/nutzungsvoraussetzungen
+#Redirect 301 /faq/nutzungsvoraussetzungen/download http://faq.maxdome.de/?q=faq/allgemeine_fragen/nutzungsvoraussetzungen/download
+#Redirect 301 /faq/problembehebung/altersverifikation http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /faq/problembehebung/videoqualiaet_und_drm http://faq.maxdome.de/?q=faq/allgemeine_fragen/videoqualitaet_und_drm
+#Redirect 301 /faq/problembehebung/windows_media_player_und_drm http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /faq/programm_angebot http://faq.maxdome.de/?q=faq/allgemeine_fragen/programmangebot
+#Redirect 301 /faq/registrierung http://faq.maxdome.de/?q=faq/allgemeine_fragen/registrierung
+#Redirect 301 /faq/was_ist_maxdome http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_ist_maxdome
+#Redirect 301 /faq/was_ist_maxdome/was_kostet_maxdome http://faq.maxdome.de/?q=faq/allgemeine_fragen/was_ist_maxdome/was_kostet_maxdome
+#Redirect 301 /problembehebung/allgemein/1 http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /problembehebung/allgemeine_fragen http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /problembehebung/altersverifikation http://faq.maxdome.de/?q=problembehebung/allgemeine_probleme
+#Redirect 301 /problembehebung/download_angebot http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /problembehebung/nutzung_am_pc http://faq.maxdome.de/?q=problembehebung/web
+#Redirect 301 /problembehebung/nutzung_set-top-box http://faq.maxdome.de/?q=problembehebung/maxdome_mediacenter
+#Redirect 301 /problembehebung/windows_media_player_und_drm http://faq.maxdome.de/?q=problembehebung/web
+
+
+#
+# Apache/PHP/Drupal settings:
+#
+
+# Protect files and directories from prying eyes.
+<FilesMatch "\.(engine|inc|info|install|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl|svn-base)$|^(code-style\.pl|Entries.*|Repository|Root|Tag|Template|all-wcprops|entries|format)$">
+  Order allow,deny
+</FilesMatch>
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Make Drupal handle any 404 errors.
+ErrorDocument 404 /index.php
+
+# Force simple error message for requests for non-existent favicon.ico.
+<Files favicon.ico>
+  # There is no end quote below, for compatibility with Apache 1.3.
+  ErrorDocument 404 "The requested file favicon.ico was not found.
+</Files>
+
+# Set the default handler.
+DirectoryIndex index.php
+
+# Override PHP settings. More in sites/default/settings.php
+# but the following cannot be changed at runtime.
+
+# PHP 4, Apache 1.
+<IfModule mod_php4.c>
+  php_value magic_quotes_gpc                0
+  php_value register_globals                0
+  php_value session.auto_start              0
+  php_value mbstring.http_input             pass
+  php_value mbstring.http_output            pass
+  php_value mbstring.encoding_translation   0
+</IfModule>
+
+# PHP 4, Apache 2.
+<IfModule sapi_apache2.c>
+  php_value magic_quotes_gpc                0
+  php_value register_globals                0
+  php_value session.auto_start              0
+  php_value mbstring.http_input             pass
+  php_value mbstring.http_output            pass
+  php_value mbstring.encoding_translation   0
+</IfModule>
+
+# PHP 5, Apache 1 and 2.
+<IfModule mod_php5.c>
+  php_value magic_quotes_gpc                0
+  php_value register_globals                0
+  php_value session.auto_start              0
+  php_value mbstring.http_input             pass
+  php_value mbstring.http_output            pass
+  php_value mbstring.encoding_translation   0
+</IfModule>
+
+# Requires mod_expires to be enabled.
+<IfModule mod_expires.c>
+  # Enable expirations.
+  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A).
+  ExpiresDefault A1209600
+
+  # Do not cache dynamically generated pages.
+  ExpiresByType text/html A1
+</IfModule>
+
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # If your site can be accessed both with and without the 'www.' prefix, you
+  # can use one of the following settings to redirect users to your preferred
+  # URL, either WITH or WITHOUT the 'www.' prefix. Choose ONLY one option:
+  #
+  # To redirect all users to access the site WITH the 'www.' prefix,
+  # (http://example.com/... will be redirected to http://www.example.com/...)
+  # adapt and uncomment the following:
+  # RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
+  # RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
+  #
+  # To redirect all users to access the site WITHOUT the 'www.' prefix,
+  # (http://www.example.com/... will be redirected to http://example.com/...)
+  # uncomment and adapt the following:
+  # RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
+  # RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+
+  # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
+  # VirtualDocumentRoot and the rewrite rules are not working properly.
+  # For example if your site is at http://example.com/drupal uncomment and
+  # modify the following line:
+  # RewriteBase /drupal
+  #
+  # If your site is running in a VirtualDocumentRoot at http://example.com/,
+  # uncomment the following line:
+    RewriteBase /
+
+  # Rewrite URLs of the form 'x' to the form 'index.php?q=x'.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !=/favicon.ico
+  RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+</IfModule>
+
+# $Id: .htaccess,v 1.90.2.3 2008/12/10 20:04:08 goba Exp $
