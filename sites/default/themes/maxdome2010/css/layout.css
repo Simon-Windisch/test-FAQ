@@ -282,15 +282,26 @@ margin-bottom: 40px;
 /* path --------------------------- */
 
 .breadcrumb{
+    color:#0099CD;
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
 	white-space:nowrap;width:99%;overflow:hidden;
-	font:normal 10px Arial,sans-serif;color:#7f7f7f;
 	padding: 7px 7px 0;
 }
 .breadcrumb a{
-	color:#7f7f7f !important;
+    color:#0099CD;
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
 	background:url(images/arrow_breadcrumb.png) right center no-repeat;
 	padding-right:12px;
 	margin-right:6px;
+}
+.breadcrumb  a:link, #breadcrumbs li a:visited {
+    text-decoration:none;
+}
+
+.breadcrumb  a:hover, #breadcrumbs li a:focus {
+    text-decoration:underline;
 }
 
 /* sidebars --------------------------- */
