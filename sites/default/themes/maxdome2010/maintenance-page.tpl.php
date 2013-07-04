@@ -29,21 +29,26 @@
 
 
 	<body	class="<?php print $body_classes;	?> offline">
+
+    <!-- start Page Content -->
+    <div id="mxd-pattern-background-wrapper">
+
+    <!-- ______________________	HEADER _______________________ -->
+
+        <div id="header">
+            <div id="header-inner">
+                <div id="logo">
+                    <?php	if (!empty($site_name)): ?>
+                        <h1	id="site-name"><a href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
+                    <?php	endif; ?>
+                </div>
+                <div id="web-presence-part">FAQ</div>
+
+            </div> <!--	/header-inner	-->
+        </div> <!--	/header	-->
+
+    <!-- ______________________	PAGE _______________________ -->
 		<div id="page">
-
-		<!-- ______________________	HEADER _______________________ -->
-
-			<div id="header">
-				<div id="header-inner">
-					<div id="logo">
-		<?php	if (!empty($site_name)): ?>
-							<h1	id="site-name"><a href="<?php	echo	$front_page	?>"	title="<?php echo	t('Home'); ?>" rel="home"><span><?php	echo $site_name; ?></span></a></h1>
-		<?php	endif; ?>
-					</div>
-					<div id="web-presence-part">FAQ</div>
-				
-				</div> <!--	/header-inner	-->
-			</div> <!--	/header	-->
 
 		<!-- ______________________	MAIN _______________________ -->
 

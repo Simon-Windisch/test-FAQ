@@ -24,6 +24,9 @@
 	</head>
 
 	<body	class="<?php print $body_classes;	?>">
+
+    <!-- start Page Content -->
+    <div id="mxd-pattern-background-wrapper">
 		
 		<div id="skip-nav"><a	href="#content">Skip to	Content</a></div>	 
 
@@ -55,8 +58,6 @@
 		</div> <!--	/header	-->
 
 	<!-- ______________________	PAGE _______________________ -->
-
-
 		<div id="page">
 
 		<!-- ______________________	MAIN _______________________ -->
