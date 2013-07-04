@@ -114,7 +114,7 @@ padding-top: 25px;
 position: relative;
 margin: -2px auto 0;
 height: 88px;
-width: 802px;
+width: 948px;
 }
 #header-nav--meta{
 position: absolute;
@@ -202,6 +202,7 @@ font-size: 24px;
 
 /* Suche */
 #header .block-search{
+    box-sizing: border-box;
 	background-color: rgba(255, 255, 255, 0.102);
 	border-bottom: 1px solid #6A737A;
 	border-left: 1px solid #282B2E;
@@ -217,6 +218,7 @@ font-size: 24px;
 	bottom: 10px;
 }
 #header .block-search *{
+    box-sizing: border-box;
 	margin:0;padding:0;
 	float:left;
 }
@@ -231,11 +233,12 @@ box-shadow: rgba(16, 16, 16, 0.298) 0px 0px 3px;
 -moz-box-shadow: rgba(16, 16, 16, 0.298) 0px 0px 3px;
 outline: none;
 height: 30px;
-width: 174px;
+width: 194px;
 padding: 1px 0px 0px 10px;
 font-size: 15px;
 line-height: 29px;
 color: #FFFFFF;
+font-family: "Segoe UI", "Arial", sans-serif;
 }
 #header .block-search .form-submit{
 	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
