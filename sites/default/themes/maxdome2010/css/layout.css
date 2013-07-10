@@ -106,7 +106,7 @@ padding-top: 25px;
 /* ------- HEADER ------- */
 
 #header{
-	background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
+	background: url("images/header-s1f45a88d2f.png") no-repeat transparent top center;
 	height: 200px;
 	overflow: visible;
 }
@@ -392,11 +392,11 @@ display: none; /* hide "Home" title */
 #stage{
 	position:relative;display:block;
 	width:802px;
-	margin-top: 30px;
+	margin-top: 24px;
 }
 #stage .sections{
 	max-height:270px;height:270px;
-	padding: 12px 12px 24px 12px;
+	padding: 20px;
 }
 #stage .right{
 	
